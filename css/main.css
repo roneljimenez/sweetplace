@@ -1,0 +1,137 @@
+body{
+
+    background-color: #fff !important;
+
+    letter-spacing: 1px;
+
+}
+
+.sweetplace-logo{
+    max-width: 280px;
+    margin: auto;
+}
+
+.content{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+.nav-menu{
+
+    position: fixed;
+
+    width: 100%;
+    padding-top: 0px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: .3s ease;
+
+}
+
+#banner{
+    height: 823px;
+
+    background-color: #efccc5;
+
+    background-image: url('../images/banner-sweetplace-min.jpg?v=1');
+
+    background-size: cover;
+
+    background-blend-mode: multiply;
+    padding-top: 100px;
+
+}
+
+#formulario-contacto{
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-control, .form-control:active, .form-control:focus{
+
+    background-color: rgba(255, 255, 255, 0.267);
+
+}
+
+#submit-btn{
+
+    background: #b7f4ee !important;
+
+    border-color: #b7f4ee !important;
+
+    color: #212529;
+
+    letter-spacing: 1px;
+
+}
+.pink-bg {
+    background: #af8a7da6;
+}
+.confirmation-text {
+    color: #fff;
+}
+.projects {
+     margin-top: 50px;
+}
+.products {
+    margin-top: 50px;
+}
+.section-title {
+    font-size: 32px;
+    padding: 15px;
+}
+.btn-cotizar {
+    background: #b7f4ee !important;
+    border-color: #b7f4ee !important;
+    color: #212529;
+    letter-spacing: 1px;
+}
+.gift-title {
+    margin-top: 15px;
+}
+.adn {
+    margin-top: 45px;
+}
+.adn-description {
+    font-size: 21px;
+    margin-top: 10px;
+}
+.gift-container {
+    margin: 25px 0;
+}
+.nav-color {
+    background-color: #ffffffde;
+}
+
+@media (max-width:1024px){
+    #banner {
+        background-position: center;
+
+    }
+}
+@media (min-width:1200px){
+    .nav-menu{
+        padding-top: 30px;
+    }
+    #banner {
+        background-position: center;
+        padding-top: 160px;
+
+    }
+    .gift-container {
+        margin: 0px 0;
+    }
+}
