@@ -1,8 +1,7 @@
 body{
-
     background-color: #fff !important;
-
     letter-spacing: 1px;
+    overflow-x: hidden;
 
 }
 
