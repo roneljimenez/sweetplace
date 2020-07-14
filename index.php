@@ -129,14 +129,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 d-flex align-items-center flex-column justify-content-center">
+                <div class="col-12 col-md-6 d-flex align-items-center flex-column justify-content-center order-2 order-lg-1">
                     <p class="adn-description">Regala una taza con diseño a la medida.</small>
                     </p>
                     <div class="button-container">
                         <a href="#banner" class="btn btn-primary btn-cotizar">Cotizar</a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 order-1 order-lg-2">
                     <img class="d-block w-100" src="images/producto-dia-del-padre-2-min.jpg" alt="">
                 </div>
             </div>
